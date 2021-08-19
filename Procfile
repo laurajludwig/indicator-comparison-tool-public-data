@@ -1,1 +1,1 @@
-web: bokeh serve — port=$PORT — allow-websocket-origin=indicator-comparison-tool.herokuapp.com — address=0.0.0.0 — use-xheaders gkapp.py
+web: bokeh serve --port=$PORT --allow-websocket-origin=indicator-comparison-tool.herokuapp.com --address=0.0.0.0 --use-xheaders gkapp.py
